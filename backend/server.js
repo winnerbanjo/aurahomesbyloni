@@ -12,6 +12,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// Routes
+app.use('/api/leads', require('./src/routes/leadRoutes'));
+
 app.get('/', (req, res) => {
   res.send('Aura Homes API is running...');
 });
