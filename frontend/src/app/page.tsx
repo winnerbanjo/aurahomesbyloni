@@ -56,20 +56,20 @@ export default function Home() {
 
   const faqs = [
     {
-      q: "Is Surulere on the island or mainland?",
-      a: "Surulere is located on the mainland of Lagos State, Nigeria. It is one of the most vibrant and strategically positioned areas in Lagos, serving as a hub for commercial activities and residential living."
+      q: "What areas does Aura Homes cover in Lagos?",
+      a: "Aura Homes operates across premium locations on the Lagos Mainland and environs, including Surulere, Yaba, Gbagada, Shomolu, Ogudu, and Ikeja."
     },
     {
-      q: "Which local government is Surulere in Lagos?",
-      a: "Surulere is a local government area (LGA) in Lagos State, one of the 20 LGAs in the state's South-West geopolitical zone. It is one of Lagos' most notable LGAs due to its cultural, historical, and economic significance."
+      q: "Does Aura Homes offer both rent and sale properties?",
+      a: "Yes, we represent properties for sale, long-term rent, commercial lease, and short-lets, ensuring a comprehensive service for both home seekers and property owners."
     },
     {
-      q: "Is Yaba under Surulere?",
-      a: "No, Yaba is not under Surulere, but it is geographically close to Surulere and shares borders with it. Yaba is an independent neighborhood and a major part of Lagos Mainland, known for its educational institutions, tech hubs, and commercial activities."
+      q: "Are the property listings on Aura Homes verified?",
+      a: "Absolutely. We verify all properties, listings, and landlords to protect our clients from scams and guarantee a transparent transaction."
     },
     {
-      q: "What does Surulere mean in Yoruba?",
-      a: "The word Surulere is derived from the Yoruba language and translates to 'patience is rewarding' or 'patience is profitable'. This name carries profound cultural significance, reflecting the Yoruba people's deep belief in the virtues of patience, perseverance, and resilience."
+      q: "How do I book a physical or virtual inspection?",
+      a: "You can easily schedule an inspection by clicking the 'Book Inspection' button, filling out our request form, or contacting our support agents directly via WhatsApp."
     }
   ];
 
@@ -90,7 +90,7 @@ export default function Home() {
             Connecting You to Real Properties to Rent, Lease, or Buy, Real Quick.
           </h1>
           <p className="text-lg text-stone-600 text-balance leading-relaxed">
-            We’re more than just a service. We’re your trusted partner in finding the perfect property. With expert guidance, personalized support, and a deep understanding of Surulere’s real estate market, we make your property journey seamless and stress-free.
+            We’re more than just a service. We’re your trusted partner in finding the perfect property. With expert guidance, personalized support, and a deep understanding of Lagos' real estate market, we make your property journey seamless and stress-free.
           </p>
         </motion.div>
 
@@ -189,11 +189,11 @@ export default function Home() {
       {/* Counters Section */}
       <section className="px-4 md:px-8 py-20 bg-stone-100 border-y border-stone-200 text-center">
         <div className="max-w-[1400px] w-full mx-auto">
-          <h3 className="text-2xl md:text-3xl font-semibold mb-12 tracking-tight">Connecting You to Exceptional Homes in Surulere.</h3>
+          <h3 className="text-2xl md:text-3xl font-semibold mb-12 tracking-tight">Connecting You to Exceptional Homes in Lagos.</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
               <div className="text-5xl font-semibold mb-2">200+</div>
-              <div className="text-stone-500 text-sm font-medium">Properties in Surulere</div>
+              <div className="text-stone-500 text-sm font-medium">Properties in Lagos</div>
             </div>
             <div>
               <div className="text-5xl font-semibold mb-2">150+</div>
@@ -210,15 +210,15 @@ export default function Home() {
       {/* Who We Are Section */}
       <section className="px-4 md:px-8 py-24 max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div className="h-[450px] rounded-[32px] overflow-hidden relative shadow-sm border border-stone-100">
-          <img src="/images/hero.jpg" alt="Surulere luxury real estate" className="absolute inset-0 w-full h-full object-cover" />
+          <img src="/images/hero.jpg" alt="Lagos luxury real estate" className="absolute inset-0 w-full h-full object-cover" />
         </div>
         <div>
           <span className="text-xs font-bold tracking-widest uppercase text-stone-500 mb-4 block">Who We Are</span>
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-6">Simplifying Your Search for Homes in Surulere</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-6">Simplifying Your Search for Homes in Lagos</h2>
           <p className="text-stone-600 text-lg leading-relaxed mb-8 text-balance">
-            At RentHouseSurulere (powered by Aura Homes by Loniss), we’re reimagining how people find homes in the vibrant heart of Surulere, Lagos. Born from a desire to simplify the often stressful rental process, we are more than just a platform—we’re a trusted partner, connecting renters, landlords, and agents in a seamless and transparent way.
+            At Aura Homes by Loniss, we’re reimagining how people find homes across the vibrant neighborhoods of Lagos. Born from a desire to simplify the often stressful rental process, we are more than just a platform—we’re a trusted partner, connecting renters, landlords, and agents in a seamless and transparent way.
           </p>
-          <Link href="/about" className="bg-black text-white px-6 py-3.5 rounded-full text-sm font-medium hover-lift inline-block">
+          <Link href="/lagos-area-guide" className="bg-black text-white px-6 py-3.5 rounded-full text-sm font-medium hover-lift inline-block">
             Read More About Us
           </Link>
         </div>
@@ -257,7 +257,7 @@ export default function Home() {
             <div className="p-8 bg-stone-50 rounded-3xl border border-stone-200 hover-lift">
               <h4 className="text-xl font-semibold mb-3">Neighborhood Insights</h4>
               <p className="text-stone-600 leading-relaxed text-sm">
-                Find verified details about streets, amenities, schools, road conditions, and landmarks to ensure your next property in Surulere fits your lifestyle.
+                Find verified details about streets, amenities, schools, road conditions, and landmarks to ensure your next property in Lagos fits your lifestyle.
               </p>
             </div>
           </div>
@@ -267,7 +267,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="px-4 md:px-8 py-24 bg-black text-white text-center">
         <div className="max-w-[800px] mx-auto">
-          <h2 className="text-4xl md:text-5xl font-semibold mb-6 tracking-tight">Live The Surulere Lifestyle.</h2>
+          <h2 className="text-4xl md:text-5xl font-semibold mb-6 tracking-tight">Live The Lagos Lifestyle.</h2>
           <p className="text-stone-400 mb-10 text-balance text-lg">
             Discover affordable, stylish, and comfortable homes designed to suit your lifestyle. Experience the joy of living in a space that truly feels like home.
           </p>
@@ -325,7 +325,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm">
               <p className="text-stone-600 text-sm italic mb-6 leading-relaxed">
-                "Finding a neat apartment in Surulere was so stress-free. The inspection support helped me double check every detail, and the contract signing was extremely fast."
+                "Finding a neat apartment in Lagos was so stress-free. The inspection support helped me double check every detail, and the contract signing was extremely fast."
               </p>
               <h5 className="font-semibold text-stone-800">Tunde A.</h5>
               <span className="text-stone-400 text-xs">Tenant in Aguda</span>

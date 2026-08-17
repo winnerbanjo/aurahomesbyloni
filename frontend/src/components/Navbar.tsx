@@ -18,7 +18,7 @@ export default function Navbar() {
       
       <div className="hidden md:flex gap-8 text-sm font-medium text-stone-600">
         <Link href="/" className={`hover:text-black transition-colors ${pathname === '/' ? 'text-black font-semibold' : ''}`}>Home</Link>
-        <Link href="/surulere-lagos" className={`hover:text-black transition-colors ${pathname === '/surulere-lagos' ? 'text-black font-semibold' : ''}`}>Area Guide</Link>
+        <Link href="/lagos-area-guide" className={`hover:text-black transition-colors ${pathname === '/lagos-area-guide' ? 'text-black font-semibold' : ''}`}>Area Guide</Link>
         <Link href="/request-property" className={`hover:text-black transition-colors ${pathname === '/request-property' ? 'text-black font-semibold' : ''}`}>Request Property</Link>
         <Link href="/blog" className={`hover:text-black transition-colors ${pathname === '/blog' ? 'text-black font-semibold' : ''}`}>Blog</Link>
       </div>
